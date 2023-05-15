@@ -29,9 +29,9 @@ class HomePage2 extends StatelessWidget {
                 child: TextFormField(
                   controller: appCubit.searchController,
                   decoration: InputDecoration(
-                    prefixIcon: const Icon(
+                    prefixIcon: Icon(
                       Icons.search,
-                      color: Colors.grey,
+                      color: Colors.grey[850],
                     ),
                     suffixIcon: Row(
                       mainAxisAlignment: MainAxisAlignment.end,
